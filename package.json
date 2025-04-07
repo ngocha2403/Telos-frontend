@@ -6,6 +6,11 @@
     "watch": "npx tailwindcss  -i ./input.css -o ./css/output.css --watch",
     "watchDemo4": "npx tailwindcss  -i ./demo4/input.css -o ./demo4/output.css --watch",
     "watchbtvn2": "npx tailwindcss  -i ./btvn2/input.css -o ./btvn2/output.css --watch",
+    "watchDemo5": "npx tailwindcss  -i ./demo5/input.css -o ./demo5/output.css --watch",
+    "watchDemo6": "npx tailwindcss  -i ./demo6/input.css -o ./demo6/output.css --watch",
+    "watchDemo7": "npx tailwindcss  -i ./demo7/input.css -o ./demo7/output.css --watch",
+    "watchbtvn3": "npx tailwindcss  -i ./btvn3/input.css -o ./btvn3/output.css --watch",
+    "watchbtvn4": "npx tailwindcss  -i ./btvn4/input.css -o ./btvn4/output.css --watch",
     "build" : "NODE_ENV=production npx tailwindcss -i ./input.css -o ./css/output.css"
   },
   "keywords": [],

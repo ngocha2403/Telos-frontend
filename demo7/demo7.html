@@ -1,0 +1,158 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script> new NOW().innit();
+    </script>
+    <script>
+      function openMobileMenu() {
+        document.getElementById("mobileMenu").classList.remove("hidden");
+      }
+      function closeMobileMenu() {
+        document.getElementById("mobileMenu").classList.add("hidden");
+      }
+    </script>
+  </head>
+  <body>
+    <div class="flex flex-col items-center">
+      <div class="nav container h-18 flex items-center justify-between px-6">
+        <img src="images/logo.png" alt="" />
+        <div class="gap-8 hidden sm:flex">
+          <div>About</div>
+          <div>Services</div>
+          <div>Blog</div>
+          <div>Jobs</div>
+          <div>Contact</div>
+        </div>
+        <img
+          src="images/ico_hamburger.webp"
+          alt=""
+          class="size-6 sm:hidden"
+          onclick="openMobileMenu()"
+        />
+      </div>
+      <div
+        class="fixed top-0 left-0 bg-transparentBlack size-full hidden"
+        id="mobileMenu"
+      >
+        <div
+          class="w-[300px] h-full bg-white fixed right-0 flex flex-col items-end p-8 gap-6"
+        >
+          <img
+            src="images/ico_hamburger.webp"
+            alt=""
+            class="size-6"
+            onclick="closeMobileMenu()"
+          />
+          <div>About</div>
+          <div>Services</div>
+          <div>Blog</div>
+          <div>Jobs</div>
+          <div>Contact</div>
+        </div>
+      </div>
+      <div
+        class="hero container py-16 flex flex-col sm:flex-row gap-8 items-center"
+      >
+        <div class="left grid sm:grid-cols-6 gap-5 w-1/2">
+          <img src="images/cover_1.png" alt="" class="sm:col-span-3 w-full" />
+          <img
+            src="images/cover_2.png"
+            alt=""
+            class="sm:col-span-3 w-full self-end"
+          />
+          <img src="images/cover_3.png" alt="" class="sm:col-span-2 w-full" />
+          <img src="images/cover_4.png" alt="" class="sm:col-span-4 w-full" />
+        </div>
+        <div class="right w-1/2 flex flex-col px-12">
+          <div class="text-h3 font-extrablol">Headline</div>
+          <div class="text-lead1 mt-4 mb-10">
+            Specially developed to help restore a more youthful appearance with
+            improved radiance and bounce
+          </div>
+          <div class="flex gap-x-4 items-center">
+            <img src="images/ico_1.png" alt="" />
+            <div class="flex flex-col gap-y-1">
+              <div class="text-h6 font-bold">Headline</div>
+              <div class="body1">One line description</div>
+            </div>
+          </div>
+          <div class="flex gap-x-4 items-center mt-6 mb-10">
+            <img src="images/ico_1.png" alt="" />
+            <div class="flex flex-col gap-y-1">
+              <div class="text-h6 font-bold">Headline</div>
+              <div class="body1">One line description</div>
+            </div>
+          </div>
+          <div
+            class="rounded-lg flex justify-center items-center bg-primary w-25 h-10 text-white"
+          >
+            Buy now
+          </div>
+        </div>
+      </div>
+      <div class="footer w-full bg-black py-16 text-white">
+        <div
+          class="mx-auto container grid sm:grid-cols-2 md:grid-cols-4 gap-10"
+        >
+          <div class="flex flex-col gap-3">
+            <div class="text-subtitle-2 font-bold mb-1">Product</div>
+            <div>Overview</div>
+            <div>Features</div>
+            <div>Tutorials</div>
+            <div>Pricing</div>
+            <div>Releases</div>
+          </div>
+          <div class="flex flex-col gap-3">
+            <div class="text-subtitle-2 font-bold mb-1">Product</div>
+            <div>Overview</div>
+            <div>Features</div>
+            <div>Tutorials</div>
+            <div>Pricing</div>
+            <div>Releases</div>
+          </div>
+          <div class="flex flex-col gap-3">
+            <div class="text-subtitle-2 font-bold mb-1">Product</div>
+            <div>Overview</div>
+            <div>Features</div>
+            <div>Tutorials</div>
+            <div>Pricing</div>
+            <div>Releases</div>
+          </div>
+          <div class="flex flex-col gap-3">
+            <div class="text-subtitle-2 font-bold mb-1">Product</div>
+            <div>Overview</div>
+            <div>Features</div>
+            <div>Tutorials</div>
+            <div>Pricing</div>
+            <div>Releases</div>
+          </div>
+          <div
+            class="sm:col-span-2 md:col-span-4 mt-14 mb-8 flex justify-center items-center relative"
+          >
+            <div class="bg-white h-4 flex-1 rounded-full"></div>
+            <div class="px-14 bg-black z-10 w-[160px] h-12">
+              <img
+                src="images/ico.png"
+                alt=""
+                height="48px"
+                width="48px"
+                class="wow animate__animated animate__zoomIn"
+              />
+            </div>
+            <div class="bg-white h-4 flex-1 rounded-full"></div>
+          </div>
+          <div class="sm:col-span-2 md:col-span-4 text-center">
+            © 2020 Landify UI Kit. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
